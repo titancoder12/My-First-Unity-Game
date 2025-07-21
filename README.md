@@ -1,1 +1,80 @@
 # My-First-Unity-Game
+This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO)** and **Unity Transport (UTP)**. It supports both local multiplayer testing and remote client-server connections.
+
+## Features
+
+- Multiplayer over LAN or Internet using Unity Transport
+- Supports Host, Client, and Dedicated Server modes
+- Player movement, shooting, and networked interaction
+- Sound effects, synced game state, and more
+
+---
+
+## Requirements
+
+- **Unity 2022.3 LTS** or newer
+- Netcode for GameObjects (`com.unity.netcode.gameobjects`)
+- Unity Transport (`com.unity.transport`)
+- Optional: Multiplayer Tools for diagnostics (`com.unity.multiplayer.tools`)
+
+---
+
+## Installation & Setup
+
+1. **Clone or download this repository**:
+   ```
+   bash
+   git clone https://github.com/yourname/your-multiplayer-game.git
+   ```
+
+2. Open the project in Unity Hub
+
+    - Select the My Multiplayer Unity Game folder
+
+    - Make sure to use Unity 2022.3 LTS or newer
+
+3. Install required packages
+
+    - Go to Window → Package Manager
+
+    - Add:
+
+        - com.unity.netcode.gameobjects
+
+        - com.unity.transport
+
+        - (Optional) com.unity.multiplayer.tools
+
+4. Assign the player prefab
+
+    - Open the NetworkManager GameObject in the main scene
+
+    - Assign the player prefab in the Player Prefab field
+
+    - Add the player prefab to the Network Prefabs list
+
+5. Play the Game
+
+    - Run the scene in Editor and click Start Host or Start Client
+
+    - Or build the project and run as Host/Client from separate machines
+
+## Hosting a Game Server
+To host a dedicated server:
+1. Go to ```File -> Build Settings```
+2. Select your desired server platform (Linux, etc.)
+3. Enable ```Headless Mode```
+4. Build your server and run:
+```
+./MyGameServer.x86_64 -batchmode -nographics
+```
+OR...
+If you only want to test multiplayer functionality, you can download the multiplayer play mode package by looking it up in the Unity package manager.
+
+## Controls
+- WASD to move
+- Left click to shoot
+- R to reload
+
+## Credits
+Thank you to Unity Netcode for creating their GameObjects library, which was extensively used in this project. 
