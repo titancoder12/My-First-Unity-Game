@@ -28,9 +28,10 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
    ```
 
 2. Open the project in Unity Hub
-
-    - Select the My Multiplayer Unity Game folder
-
+    - Click add and select from disk in the dropdown menu.
+      
+    - Select the Prototype 1 folder
+      
     - Make sure to use Unity 2022.3 LTS or newer
 
 3. Install required packages
