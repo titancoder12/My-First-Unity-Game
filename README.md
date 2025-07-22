@@ -24,7 +24,7 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
 1. **Clone or download this repository**:
    ```
    bash
-   git clone https://github.com/yourname/your-multiplayer-game.git
+   git clone https://github.com/titancoder12/My-First-Unity-Game.git
    ```
 
 2. Open the project in Unity Hub
