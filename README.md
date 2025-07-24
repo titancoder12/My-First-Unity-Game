@@ -1,6 +1,8 @@
 # My-First-Unity-Game
 This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO)** and **Unity Transport (UTP)**. It supports both local multiplayer testing and remote client-server connections.
 
+![A Screenshot of my game](https://github.com/titancoder12/My-First-Unity-Game/blob/main/Screen%20Shot%202025-07-21%20at%207.17.42%20PM.png "Screenshot")
+
 ## Features
 
 - Multiplayer over LAN or Internet using Unity Transport
