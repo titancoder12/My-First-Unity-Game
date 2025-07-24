@@ -77,6 +77,7 @@ If you only want to test multiplayer functionality, you can also download the mu
 - Left click to shoot
 - R to reload
 - Space to jump
+- Esc to leave locked mouse
 
 ## Links to additional resources
 https://docs-multiplayer.unity3d.com/
