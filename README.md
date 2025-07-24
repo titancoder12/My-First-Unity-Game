@@ -33,6 +33,8 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
     - Select (The directory you downloaded into)/My First Unity Game/Prototype 1. Not selecting this directory will yield an error from Unity Hub!
       
     - Open up the project by clicking on the title Prototype 1.
+  
+    - Do not update the code even if the system prompts you too, as this may break the game.
 
 3. Install required packages
 
