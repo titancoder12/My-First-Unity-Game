@@ -84,9 +84,9 @@ If you only want to test multiplayer functionality, you can also download the mu
 - Space to jump
 
 ## Links to additional resources
-[https://docs-multiplayer.unity3d.com/](https://docs-multiplayer.unity3d.com/)
+https://docs-multiplayer.unity3d.com/](https://docs-multiplayer.unity3d.com/
 
-[https://docs.unity3d.com/Packages/com.unity.multiplayer.tools@2.2/manual/index.html
+https://docs.unity3d.com/Packages/com.unity.multiplayer.tools@2.2/manual/index.html
 
 
 ## Credits
