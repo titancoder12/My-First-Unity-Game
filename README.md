@@ -40,6 +40,8 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
   
 3. Add Scene into Hierachy
     - Go to assets/SCENE/, then click and drag the Scene object 'Playground' into the hierachy. You should now see the enviornment in the scene view.
+  
+    - Remove the default scene by right clicking on it and selecting 'Remove Scene'
 
 3. Install required packages
 
