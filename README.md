@@ -37,6 +37,9 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
     - Open up the project by clicking on the title Prototype 1.
   
     - Do not update the code even if the system prompts you too, as this may break the game.
+  
+3. Add Scene into Hierachy
+    - Go to assets/SCENE/, then click and drag the Scene object 'Playground' into the hierachy. You should now see the enviornment in the scene view.
 
 3. Install required packages
 
@@ -50,15 +53,7 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
 
         - (Optional) com.unity.multiplayer.tools
 
-4. Assign the player prefab
-
-    - Open the NetworkManager GameObject in the main scene
-
-    - Assign the player prefab in the Player Prefab field
-
-    - Add the player prefab to the Network Prefabs list
-
-5. Play the Game
+4. Play the Game
 
     - Run the scene in Editor and click Start Host or Start Client
 
