@@ -36,7 +36,7 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
       
     - Open up the project by clicking on the title Prototype 1.
   
-    - Do not update the code even if the system prompts you too, as this may break the game.
+    - **Do not update the code even if the system prompts you too, as this may break the game.**
   
 3. Add Scene into Hierachy
     - Go to assets/SCENE/, then click and drag the Scene object 'Playground' into the hierachy. You should now see the enviornment in the scene view.
