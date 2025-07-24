@@ -32,7 +32,7 @@ This is a Unity-based multiplayer game powered by **Netcode for GameObjects (NGO
       
     - Select (The directory you downloaded into)/My First Unity Game/Prototype 1. Not selecting this directory will yield an error from Unity Hub!
       
-    - Make sure to use Unity 2022.3 LTS or newer
+    - Open up the project by clicking on the title Prototype 1.
 
 3. Install required packages
 
@@ -69,13 +69,15 @@ To host a dedicated server:
 ```
 ./MyGameServer.x86_64 -batchmode -nographics
 ```
-OR...
-If you only want to test multiplayer functionality, you can download the multiplayer play mode package by looking it up in the Unity package manager.
+### OR...
+
+If you only want to test multiplayer functionality, you can also download the multiplayer play mode package by looking it up in the Unity package manager. This allows you to simulate multiple players without building a server.
 
 ## Controls
 - WASD to move
 - Left click to shoot
 - R to reload
+- Space to jump
 
 ## Credits
 Thank you to Unity Netcode for creating their GameObjects library, which was extensively used in this project. 
